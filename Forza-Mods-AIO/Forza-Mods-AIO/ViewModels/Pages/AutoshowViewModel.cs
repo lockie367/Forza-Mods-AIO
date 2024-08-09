@@ -9,8 +9,8 @@ public partial class AutoshowViewModel : ObservableObject
 {
     [ObservableProperty]
     private bool _uiElementsEnabled = true;
-    
-    private static Cheats.ForzaHorizon5.Sql SqlFh5 => GetClass<Cheats.ForzaHorizon5.Sql>();
+    ForzaHorizon5
+    private static Cheats.ForzaHorizon5.Sql SqlFh5 => GetClass<Cheats..Sql>();
     private static Cheats.ForzaHorizon4.Sql SqlFh4 => GetClass<Cheats.ForzaHorizon4.Sql>();
 
     [RelayCommand]
